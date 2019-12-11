@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul,li{
+    list-style: none;
+}
+div {
+    display: block;
+}
+.img{
+	display: inline-block;
+	margin-top: 3px;
+	margin-left: 100px;
+}
+.tips{
+	height: 20px;
+
+	background: #CCC;
+	margin-top: 120px;
+}
+.text{
+	width: 1200px;
+	height: 20px;
+	margin: 0 auto 0;
+}
+.txtbox{
+	height: 20px;
+	width: 950px;
+	display: inline-block;
+	margin-left: 0;
+	position: relative;
+	overflow: hidden
+}
+.txt{
+	width: 450px;
+	display: inline-block;
+	color: red;
+	position: absolute;
+    left: 0px;
+    overflow: hidden
+}
+.box {
+    width: 1200px;
+    height: 380px;
+    border: 1px solid red;
+    margin: 20px auto;
+    position: relative;
+    overflow: hidden;
+}
+.slider{
+    width: 8400px;
+    position: absolute;
+    left: -1200px;
+}
+.slide{
+    width: 1200px;
+    overflow: hidden;
+    float: left;
+}
+.box>span{
+    display: block;
+    width: 30px;
+    height: 50px;
+    text-align: center;
+    cursor: pointer;
+    color:    ;
+    top: 175px;
+    line-height: 50px;
+    background: rgb(255, 0, 0);
+    font-size: 30px;
+    position: absolute;
+    /* display: none; */
+    opacity: 0;
+}
+#left{
+    left: 30px;
+}
+#right{
+    right: 30px;
+}
+.nav{
+    position: absolute;
+    left: 500px;
+    bottom: 20px;
+}
+.nav>li{
+    float: left;
+    width: 20px;
+    height: 20px;
+    background: #ccc;
+    cursor: pointer;
+    margin: 0 10px;
+    border-radius: 50%;
+	text-align: center;
+}
+.nav :first-child{
+	color: red;
+}
+.nav .active{
+    background: red;
+    color: #FFF;
+}
+
+
